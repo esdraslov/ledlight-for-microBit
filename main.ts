@@ -2,7 +2,7 @@
 /**
  * the led light libray for micro:bit
  */
-//% width=500 height=500 icon="%5b" advanced="True"
+//% width=500 height=500 icon="/12b" advanced="True"
 namespace ledLight_mb {
     export enum ledLightBrightness {
         //% block="super light"

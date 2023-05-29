@@ -16,7 +16,7 @@ namespace ledLight_mb {
         //% block="off"
         off = 0
     }
-    //% block
+    //% block, inlineInputMode = external
     export function setBrightness(brightness: number | ledLightBrightness){
         led.setBrightness(brightness)
     }

@@ -6,8 +6,9 @@
 namespace ledLight_mb {
     export enum ledLightBrightness {
         superLight = 255,
-        light = 127,
-        dark = 25,
+        light = 200,
+        dark = 127,
+        superDark = 25,
         off = 0
     }
     //% block

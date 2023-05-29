@@ -2,8 +2,8 @@
 /**
  * the led light libray for micro:bit
  */
-//% width=500 height=500 icon="/12b" advanced=true blocks="ledLight_mb"
-namespace ledLight_normal {
+//% width=500 height=500 icon="U+1F4AB" advanced=true blocks="normal config"
+namespace ledLight_mb {
     export enum ledLightBrightness {
         //% block="super light"
         superLight = 255,
@@ -20,7 +20,7 @@ namespace ledLight_normal {
     export function setBrightness(brightness: number | ledLightBrightness){
         led.setBrightness(brightness)
     }
-    //% block, advanced="true"
+    //% block
     export function getLightBrightness(b: ledLightBrightness){
         return b
     }

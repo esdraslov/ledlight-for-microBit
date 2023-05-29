@@ -1,3 +1,7 @@
+enum LedLightColors {
+    red = 255.000000,
+    redBlue = 127.000127
+}
 
 /**
  * the led light libray for micro:bit
@@ -23,5 +27,16 @@ namespace ledLight_mb {
     //% block
     export function getLightBrightness(b: ledLightBrightness){
         return b
+    }
+}
+/**
+ * the led light libray for micro:bit
+ */
+//% width=500 height=500 icon="U+1F4AB" advanced=true blocks="colors"
+namespace ledLight_mb {
+    export function setColor(color: LedLightColors){
+        if (color == 255) {
+            led.plotBarGraph(1, 2)
+        }
     }
 }

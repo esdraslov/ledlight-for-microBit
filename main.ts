@@ -34,8 +34,6 @@ namespace ledLight_mb {
     //% block
     //% group="color"
     export function setColor(color: LedLightColors) {
-        if (color == 255) {
-            led.plotBarGraph(1, 2)
-        }
+        led.plotBarGraph(1, color)
     }
 }

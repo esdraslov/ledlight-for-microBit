@@ -33,7 +33,7 @@ namespace ledLight_mb {
  * the led light libray for micro:bit
  */
 //% width=500 height=500 icon="U+1F4AB" advanced=true blocks="colors"
-namespace ledLight_mb {
+namespace ledLight_mb_color {
     export function setColor(color: LedLightColors){
         if (color == 255) {
             led.plotBarGraph(1, 2)

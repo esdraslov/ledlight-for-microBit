@@ -1,6 +1,6 @@
 enum LedLightColors {
     red = 255.000000,
-    redBlue = 127.000127
+    redBlue = 127
 }
 
 /**

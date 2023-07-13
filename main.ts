@@ -20,7 +20,7 @@ namespace ledLight_mb {
         //% block="off"
         off = 0
     }
-    //% block, inlineInputMode = external
+    //% block inlineInputMode = external
     export function setBrightness(brightness: number | ledLightBrightness){
         led.setBrightness(brightness)
     }
@@ -28,13 +28,8 @@ namespace ledLight_mb {
     export function getLightBrightness(b: ledLightBrightness){
         return b
     }
-}
-/**
- * the led light libray for micro:bit
- */
-//% width=500 height=500 icon="U+1F4AB" advanced=true blocks="colors"
-namespace ledLight_mb_color {
-    export function setColor(color: LedLightColors){
+    //% block
+    export function setColor(color: LedLightColors) {
         if (color == 255) {
             led.plotBarGraph(1, 2)
         }
